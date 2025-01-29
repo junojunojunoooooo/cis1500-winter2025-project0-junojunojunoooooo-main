@@ -49,7 +49,7 @@ public class Main {
         // terminates the program with a message if the values are divisible
         if (length % postDistance != 0) {
             System.out.println("The distance between posts isn't divisible by your area's length! Please run the program again.");
-            System.exit(0);
+            System.exit(0); // this command terminates the program
         } else if (width % postDistance != 0) {
             System.out.println("The distance between posts isn't divisible by your area's width! Please run the program again.");
             System.exit(0);
